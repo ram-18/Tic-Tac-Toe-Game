@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: rgb(0, 0, 0);
+  }
+  .myDiv {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    border: 10px outset rgb(0, 0, 0);
+    /*background-color: rgb(255, 255, 255);*/
+    text-align: center;
+  }
+  div.image {
+    /*width:480px;  /*width of your image*/
+    /*height:400px; /*height of your image*/
+    background-image:url('DSC_0180.JPG');
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+ }
+  .divmain {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    /*border: 0px outset rgb(0, 0, 0);*/
+  }
+ .space{
+    /*width: 1000px;*/
+    height: 200px;
+    /*border: 0px outset rgb(0, 0, 0);*/
+    display: grid;
+    place-items: center;
+ }
+ .cell {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 1px outset rgb(0, 0, 0);
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .scoreDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+  }
+
+  .score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+  }
+           
